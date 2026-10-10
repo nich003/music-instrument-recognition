@@ -219,5 +219,6 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# data
+# data and other extras
 data/IRMAS*
+.vscode/
