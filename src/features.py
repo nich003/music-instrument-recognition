@@ -41,3 +41,23 @@ def extract_feature_vector(filepath, selected_feature="combined", pooling="mean"
         return np.concatenate([mfcc, centroid, zcr])
     else: 
         raise ValueError(f"Select a valid feature set: {selected_feature}")
+    
+def build_feature_matrix(df, selected_feature="mfcc", pooling="mean", n_mfcc=13, n_fft=2048, hop_length=512):
+    
+    x = []
+    y = []
+    
+    for _, row in df.iterrows():
+        feature_vector = extract_feature_vector(
+            row["filepath"],
+            selected_feature=selected_feature,
+            pooling=pooling,
+            n_mfcc=n_mfcc,
+            n_fft=n_fft,
+            hop_length=hop_length
+        )
+        
+        x.append(feature_vector)
+        y.append(row["label"])
+        
+    return np.vstack(x), np.array(y)
