@@ -35,7 +35,7 @@ def extract_feature_vector(filepath, selected_feature="combined", pooling="mean"
     zcr = temporal_pooling(features["zcr"], pooling)
     if selected_feature == "mfcc":
         return mfcc
-    elif selected_feature == "audio":
+    elif selected_feature == "low_level":
         return np.concatenate([centroid, zcr])
     elif selected_feature == "combined":
         return np.concatenate([mfcc, centroid, zcr])
