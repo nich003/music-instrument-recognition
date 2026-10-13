@@ -95,3 +95,14 @@ def train_mlp(x_train, y_train, x_val, y_val, input_dim, num_classes=11, epochs=
             
     return model, train_losses, val_losses
 
+# Prediction using the MLP
+def predict_mlp(model, x):
+    model.eval()
+    
+    x = torch.tensor(x, dtype=torch.float32)
+    
+    with torch.no_grad():
+        logits = model(x)
+        preds = torch.argmax(logits, dim=1)
+        
+    return preds.numpy()
