@@ -222,3 +222,4 @@ __marimo__/
 # data and other extras
 data/IRMAS*
 .vscode/
+notebooks/results/features/
