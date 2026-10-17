@@ -1,0 +1,196 @@
+{
+  "study_combined": {
+    "groups": [
+      "mfcc",
+      "spectral_centroid",
+      "zcr"
+    ],
+    "n_mfcc": 13,
+    "n_fft": 2048,
+    "drop_c0": false
+  },
+  "study_extended": {
+    "groups": [
+      "mfcc",
+      "delta_mfcc",
+      "spectral_centroid",
+      "zcr",
+      "spectral_contrast",
+      "spectral_rolloff",
+      "spectral_flatness",
+      "spectral_bandwidth"
+    ],
+    "n_mfcc": 13,
+    "n_fft": 2048,
+    "drop_c0": false
+  },
+  "study_no_delta_mfcc": {
+    "groups": [
+      "mfcc",
+      "spectral_centroid",
+      "zcr",
+      "spectral_contrast",
+      "spectral_rolloff",
+      "spectral_flatness",
+      "spectral_bandwidth"
+    ],
+    "n_mfcc": 13,
+    "n_fft": 2048,
+    "drop_c0": false
+  },
+  "study_no_spectral_contrast": {
+    "groups": [
+      "mfcc",
+      "delta_mfcc",
+      "spectral_centroid",
+      "zcr",
+      "spectral_rolloff",
+      "spectral_flatness",
+      "spectral_bandwidth"
+    ],
+    "n_mfcc": 13,
+    "n_fft": 2048,
+    "drop_c0": false
+  },
+  "study_no_spectral_shape": {
+    "groups": [
+      "mfcc",
+      "delta_mfcc",
+      "spectral_centroid",
+      "zcr",
+      "spectral_contrast"
+    ],
+    "n_mfcc": 13,
+    "n_fft": 2048,
+    "drop_c0": false
+  },
+  "study_no_centroid_zcr": {
+    "groups": [
+      "mfcc",
+      "delta_mfcc",
+      "spectral_contrast",
+      "spectral_rolloff",
+      "spectral_flatness",
+      "spectral_bandwidth"
+    ],
+    "n_mfcc": 13,
+    "n_fft": 2048,
+    "drop_c0": false
+  },
+  "study_n_mfcc_20": {
+    "groups": [
+      "mfcc",
+      "delta_mfcc",
+      "spectral_centroid",
+      "zcr",
+      "spectral_contrast",
+      "spectral_rolloff",
+      "spectral_flatness",
+      "spectral_bandwidth"
+    ],
+    "n_mfcc": 20,
+    "n_fft": 2048,
+    "drop_c0": false
+  },
+  "study_n_mfcc_40": {
+    "groups": [
+      "mfcc",
+      "delta_mfcc",
+      "spectral_centroid",
+      "zcr",
+      "spectral_contrast",
+      "spectral_rolloff",
+      "spectral_flatness",
+      "spectral_bandwidth"
+    ],
+    "n_mfcc": 40,
+    "n_fft": 2048,
+    "drop_c0": false
+  },
+  "study_drop_c0": {
+    "groups": [
+      "mfcc",
+      "delta_mfcc",
+      "spectral_centroid",
+      "zcr",
+      "spectral_contrast",
+      "spectral_rolloff",
+      "spectral_flatness",
+      "spectral_bandwidth"
+    ],
+    "n_mfcc": 13,
+    "n_fft": 2048,
+    "drop_c0": true
+  },
+  "study_n_fft_1024": {
+    "groups": [
+      "mfcc",
+      "delta_mfcc",
+      "spectral_centroid",
+      "zcr",
+      "spectral_contrast",
+      "spectral_rolloff",
+      "spectral_flatness",
+      "spectral_bandwidth"
+    ],
+    "n_mfcc": 13,
+    "n_fft": 1024,
+    "drop_c0": false
+  },
+  "study_n_fft_4096": {
+    "groups": [
+      "mfcc",
+      "delta_mfcc",
+      "spectral_centroid",
+      "zcr",
+      "spectral_contrast",
+      "spectral_rolloff",
+      "spectral_flatness",
+      "spectral_bandwidth"
+    ],
+    "n_mfcc": 13,
+    "n_fft": 4096,
+    "drop_c0": false
+  },
+  "mfcc": {
+    "groups": [
+      "mfcc"
+    ],
+    "n_mfcc": 13,
+    "n_fft": 2048,
+    "drop_c0": false
+  },
+  "low_level": {
+    "groups": [
+      "spectral_centroid",
+      "zcr"
+    ],
+    "n_mfcc": 13,
+    "n_fft": 2048,
+    "drop_c0": false
+  },
+  "combined": {
+    "groups": [
+      "mfcc",
+      "spectral_centroid",
+      "zcr"
+    ],
+    "n_mfcc": 13,
+    "n_fft": 2048,
+    "drop_c0": false
+  },
+  "extended": {
+    "groups": [
+      "mfcc",
+      "spectral_centroid",
+      "zcr",
+      "spectral_contrast",
+      "spectral_rolloff",
+      "spectral_flatness",
+      "spectral_bandwidth"
+    ],
+    "n_mfcc": 40,
+    "n_fft": 1024,
+    "drop_c0": false
+  }
+}

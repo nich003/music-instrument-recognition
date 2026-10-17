@@ -1,0 +1,6 @@
+{
+  "feature_set": "extended",
+  "pooling": "mean_std",
+  "model": "MLP",
+  "val_macro_f1": 0.5830467734328028
+}

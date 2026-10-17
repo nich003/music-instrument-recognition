@@ -223,3 +223,5 @@ __marimo__/
 data/IRMAS*
 .vscode/
 notebooks/results/features/
+cache/
+models/**/*.joblib

@@ -1,0 +1,5 @@
+Configuration,Model,Test accuracy,Test macro F1
+"Extended, Mean + Std",Logistic Regression,0.5163853028798411,0.5112040768062287
+"Extended, Mean + Std",kNN,0.42899702085402186,0.4155324859666775
+"Extended, Mean + Std",SVM,0.5551142005958292,0.5489413890998261
+"Extended, Mean + Std",MLP,0.5412115193644489,0.539889942507141
